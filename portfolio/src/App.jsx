@@ -4,7 +4,7 @@
 // import heroImg from './assets/hero.png'
 // import './App.css'
 
-import { Routes, Route } from "react-router-dom"
+import { useSearchParams } from "react-router-dom"
 import Hero from './pages/Hero'
 import About from './pages/About'
 import Services from "./pages/Services"
@@ -15,8 +15,11 @@ import Footer from "./components/Footer"
 
 function App() {
 
+const [searchParams] = useSearchParams()
+const theme = searchParams.get('theme') || 'light'
+
   return (
-    <div>
+    <div className={ theme }>
         <Navbar />
         <Hero />
         <About />

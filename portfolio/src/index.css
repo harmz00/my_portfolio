@@ -149,3 +149,116 @@ button {
   border: none;
   outline: none;
 }
+
+
+
+
+.dark {
+  background-color: #111111;
+  color: #ffffff;
+}
+
+.dark nav {
+  background-color: #1a1a1a;
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.05);
+}
+
+.dark nav ul li a {
+  color: #ffffff;
+}
+
+.dark #about {
+  background-color: #1a1a1a;
+}
+
+.dark #projects {
+  background-color: #1a1a1a;
+}
+
+.dark .service-card {
+  border-color: #333333;
+  background-color: #1a1a1a;
+}
+
+.dark .project-card {
+  background-color: #1a1a1a;
+}
+
+.dark .contact-form input {
+  background-color: #1a1a1a;
+  border-color: #333333;
+  color: #ffffff;
+}
+
+.dark .skill-bar {
+  background-color: #333333;
+}
+
+
+.dark nav h1 {
+  color: var(--primary);
+}
+
+.dark #hero .hero-text p {
+  color: #cccccc;
+}
+
+.dark #hero .hero-text h1 {
+  color: #ffffff;
+}
+
+.dark #hero .hero-socials a {
+  color: #cccccc;
+}
+
+.dark #about .about-content h2 {
+  color: #ffffff;
+}
+
+.dark #about .about-content p {
+  color: #cccccc;
+}
+
+.dark .skill p {
+  color: #ffffff;
+}
+
+.dark #services h2 {
+  color: #ffffff;
+}
+
+.dark #services > p {
+  color: #cccccc;
+}
+
+.dark .service-card h3 {
+  color: #ffffff;
+}
+
+.dark .service-card p {
+  color: #cccccc;
+}
+
+.dark #projects h2 {
+  color: #ffffff;
+}
+
+.dark #projects > p {
+  color: #cccccc;
+}
+
+.dark .project-info h3 {
+  color: #ffffff;
+}
+
+.dark #contact h2 {
+  color: #ffffff;
+}
+
+.dark #contact > p {
+  color: #cccccc;
+}
+
+.dark footer {
+  background-color: #000000;
+}
