@@ -1,4 +1,6 @@
 import "../styles/Footer.css"
+import { FaLinkedin } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
 function Footer() {
   return (
@@ -14,11 +16,11 @@ function Footer() {
       </ul>
 
       <div className="footer-socials">
-        <a href="#">Twitter</a>
-        <a href="#">LinkedIn</a>
+        <a href="https://x.com/omeizaa00"><FaXTwitter/></a>
+        <a href="www.linkedin.com/in/abdulhamid-omeiza-877bb9378"><FaLinkedin/></a>
       </div>
 
-      <p>© 2025 Idris Abdulhamid Omeiza. All Rights Reserved.</p>
+      <p> &copy; 2025 Idris Abdulhamid Omeiza. All Rights Reserved.</p>
     </footer>
   )
 }

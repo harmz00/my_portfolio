@@ -1,27 +1,30 @@
 import "../styles/Projects.css"
+import YoutubePage from "../assets/YoutubePage.png"
+import TaskManagerPage from "../assets/TaskManagerPage.png"
+import DashboardPage from "../assets/DashboardPage.png"
 
 
 const projects = [
   {
     id: 1,
-    title: "Project One",
+    title: "Youtube Landing Page",
     category: "HTML/CSS",
-    image: "https://placehold.co/300x200",
-    link: "#"
+    image: YoutubePage,
+    link: "https://69cd4d4f168c1c294eab0dbe--famous-klepon-a398cd.netlify.app/"
   },
   {
     id: 2,
-    title: "Project Two",
-    category: "JavaScript",
-    image: "https://placehold.co/300x200",
-    link: "#"
+    title: "Task Manager",
+    category: "HTML/CSS/JavaScript",
+    image: TaskManagerPage,
+    link: "https://69cd4f5103bc8a4591ec3bc4--tskmanagr.netlify.app/"
   },
   {
     id: 3,
-    title: "Project Three",
-    category: "React",
-    image: "https://placehold.co/300x200",
-    link: "#"
+    title: "Students Score Dashboard",
+    category: "HTML/CSS/JS/React",
+    image: DashboardPage,
+    link: "https://69cd95609266cb37f4786b91--stdntdashboard.netlify.app/"
   },
 ]
 

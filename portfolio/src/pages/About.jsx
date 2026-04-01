@@ -1,10 +1,11 @@
 import "../styles/About.css"
+import DP from "../assets/DP.jpg"
 
 function About() {
   return (
     <section id="about">
       <div className="about-image">
-        <img src="https://placehold.co/300x300" alt="about" />
+        <img src={ DP } alt="about" />
       </div>
 
       <div className="about-content">
@@ -36,7 +37,7 @@ function About() {
           <div className="skill">
             <p>React</p>
             <div className="skill-bar">
-              <div className="skill-fill" style={{width: '70%'}}></div>
+              <div className="skill-fill" style={{width: '50%'}}></div>
             </div>
           </div>
         </div>
