@@ -1,0 +1,105 @@
+
+#hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px;
+  min-height: 100vh;
+  position: relative;
+}
+
+#hero .hero-text {
+  max-width: 500px;
+}
+
+#hero .hero-text p:first-child {
+  font-size: 18px;
+  color: var(--text);
+  margin-bottom: 5px;
+}
+
+#hero .hero-text h2 {
+  font-size: 28px;
+  color: var(--primary);
+  margin-bottom: 5px;
+}
+
+#hero .hero-text h1 {
+  font-size: 52px;
+  font-weight: 800;
+  color: var(--dark);
+  margin-bottom: 20px;
+}
+
+#hero .hero-text p:last-of-type {
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+#hero .hero-text a button {
+  background-color: var(--primary);
+  color: var(--light);
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  transition: opacity 0.3s;
+}
+
+#hero .hero-text a button:hover {
+  opacity: 0.85;
+}
+
+#hero .hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid var(--primary);
+}
+
+#hero .hero-socials {
+  position: absolute;
+  bottom: 40px;
+  right: 80px;
+  display: flex;
+  gap: 20px;
+}
+
+#hero .hero-socials a {
+  color: var(--dark);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+#hero .hero-socials a:hover {
+  color: var(--primary);
+}
+
+
+
+
+@media (max-width: 900px) {
+  #hero {
+    flex-direction: column;
+    padding: 60px 30px;
+    text-align: center;
+  }
+
+  #hero .hero-text h1 {
+    font-size: 36px;
+  }
+
+  #hero .hero-image img {
+    margin-top: 30px;
+  }
+
+  #hero .hero-socials {
+    position: static;
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
